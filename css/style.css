@@ -1,0 +1,113 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Open Sans', sans-serif;
+}
+body {
+    background: #c1c2c4;
+}
+.apk-all {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 450px;
+    width: 90%;
+    padding: 40px;
+}
+.apk {
+    display: flex;
+    flex-flow: row nowrap;
+    width: 80%;
+    height: 100%;
+    
+}
+/* apk-p1 */
+.apk-p1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: start;
+    background: #09b794;
+    width: 40%;
+    /* border-radius: 100px; */
+    color: white;
+    padding: 50px;
+    font-size: 15px;
+    outline: none;
+    border-top-left-radius: 50px;
+    border-bottom-left-radius: 50px;
+}
+.apk-p1 .line-1,p{
+    margin-bottom: 40px;
+}
+.apk-p1 p {
+    width: 80%;
+}
+.apk-p1 h1 {
+    margin-bottom: 5px;
+    font-weight: 700;
+    font-size: 20px;
+}
+.apk-p1 button {
+    border-radius: 20px;
+    width: 100px;
+    padding: 5px;
+    font-size: small;
+    background: #09b794;
+    border: 2px solid #ffffff;
+    color: #ffffff;
+}
+.line-1 {
+    width: 60px;
+    height: 4px;
+    background: white;
+}
+/* apk-p2 */
+.apk-p2 {
+    background: #ffffff;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-top-right-radius: 50px;
+    border-bottom-right-radius: 50px;
+}
+.apk-p2 form {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    width: 100%;
+    margin: auto;
+}
+.apk-p2 h1 {
+ margin-bottom: 5px;  
+ font-size: 20px; 
+}
+.apk-p2 .line-2 {
+    width: 60px;
+    height: 4px;
+    background: #09b794;
+   margin-bottom: 50px;
+}
+input {
+    width: 250px;
+    background: #ffffff;
+    margin-bottom: 20px;
+    background: #ffffff;
+    outline: none;
+    border: none;
+    border-bottom: 1px solid #7d7b7b;
+
+}
+.apk-p2 button {
+    border-radius: 30px;
+    border: 3px solid #09b794;
+    width: 200px;
+    height: 30px;
+    background: #09b794;
+    color: white;
+}
+.apk-p2 .input-2 {
+    margin-bottom: 70px;
+}
